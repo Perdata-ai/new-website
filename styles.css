@@ -145,6 +145,9 @@ nav.site-nav {
   font-weight: 500;
   border-radius: 4px;
 }
+
+.nav-cta a { color: var(--bg); }
+
 .nav-cta:hover { background: var(--mute); color: var(--bg); }
 
 .nav-toggle {
@@ -401,7 +404,7 @@ section.dark .manifest-item p {
   background: var(--ink);
   color: var(--bg);
   aspect-ratio: 2 / 3;
-  padding: 40px 32px;
+  padding: 0px 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -468,7 +471,8 @@ section.dark .manifest-item p {
   height: 56px;
   border-radius: 50%;
   margin-bottom: 28px;
-  background: var(--ink);
+  object-fit: cover;
+  display: block;
 }
 .founder h3 { margin-bottom: 4px; font-size: 1.6rem; }
 .founder .role {
