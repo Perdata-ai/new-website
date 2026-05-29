@@ -144,11 +144,12 @@ nav.site-nav {
   font-size: 0.85rem;
   font-weight: 500;
   border-radius: 4px;
+
 }
 
-.nav-cta a { color: var(--bg); }
+a.nav-cta, .nav-cta a { color: var(--bg); }
 
-.nav-cta:hover { background: var(--mute); color: var(--bg); }
+.nav-cta:hover, a.nav-cta:hover { background: var(--mute); color: var(--bg); }
 
 .nav-toggle {
   display: none;
@@ -181,7 +182,7 @@ nav.site-nav {
 
 /* ============ HERO ============ */
 .hero {
-  padding: 180px 0 160px;
+  padding: 140px 0 80px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -680,6 +681,12 @@ footer.site-footer {
   color: var(--mute);
   font-size: 0.97rem;
   line-height: 1.55;
+}
+.product-col-img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 30px;
 }
 
 /* ============ VISION ============ */
