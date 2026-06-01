@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Connection Continuum — Perdata.ai</title>
+<meta name="description" content="Five levels of connection, from the people you know to the few who know you fully. A framework from Perdata.ai." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css" />
+
+<style>
+  .cc-intro {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 32px 80px;
+  }
+  .cc-intro h1 {
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    margin-bottom: 24px;
+  }
+  .cc-intro p {
+    color: var(--mute);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .cc-levels {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 32px 120px;
+  }
+
+  .cc-level {
+    padding: 56px 0;
+    border-top: 1px solid var(--line);
+  }
+  .cc-level:last-child {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .cc-level-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .cc-badge {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    background: var(--ink);
+    color: var(--bg);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .cc-level-title-block {
+    padding-top: 2px;
+  }
+
+  .cc-level-title-block h2 {
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+  }
+
+  .cc-tag {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--mute);
+    border: 1px solid var(--line);
+    border-radius: 100px;
+    padding: 3px 12px;
+  }
+
+  .cc-level-body {
+    padding-left: 76px;
+  }
+
+  .cc-level-body p {
+    color: var(--mute);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    margin-bottom: 28px;
+  }
+
+  .cc-levelup {
+    background: var(--bg-soft);
+    border-left: 3px solid var(--ink);
+    border-radius: 0 8px 8px 0;
+    padding: 20px 24px;
+  }
+
+  .cc-levelup-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--mute-2);
+    margin-bottom: 8px;
+  }
+
+  .cc-levelup p {
+    color: var(--ink) !important;
+    font-size: 0.97rem !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+  }
+
+  .cc-note {
+    max-width: 760px;
+    margin: 0 auto 120px;
+    padding: 0 32px;
+  }
+
+  .cc-note-inner {
+    background: var(--bg-soft);
+    border-radius: 12px;
+    padding: 40px 48px;
+  }
+
+  .cc-note-inner h3 {
+    font-size: 1.2rem;
+    margin-bottom: 14px;
+  }
+
+  .cc-note-inner p {
+    color: var(--mute);
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .cc-cta {
+    text-align: center;
+    padding: 0 32px 120px;
+  }
+
+  @media (max-width: 600px) {
+    .cc-level-body {
+      padding-left: 0;
+    }
+    .cc-note-inner {
+      padding: 28px 24px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><span class="a"></span><span class="b"></span></span>
+      Perdata
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="products.html">Products</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="book.html">Our book</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html" class="nav-cta">Get in touch</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<div class="cc-intro">
+  <span class="eyebrow">Framework</span>
+  <h1>The Connection Continuum</h1>
+  <p>Five levels of connection, from the people you know to the few who know you fully.</p>
+  <p>Read each level and place each friend where they fit today. Most people sit in the first three levels, and that is healthy. Soul Friends are few, often one or two in a lifetime. A friend can move up or down as life changes. Honest placement beats flattering placement.</p>
+  <p>Under each level, the callout shows one practical way to move up.</p>
+</div>
+
+<!-- ============ LEVELS ============ -->
+<div class="cc-levels">
+
+  <div class="cc-level">
+    <div class="cc-level-header">
+      <div class="cc-badge">1</div>
+      <div class="cc-level-title-block">
+        <h2>The Familiar Face</h2>
+        <span class="cc-tag">Friendly, surface level</span>
+      </div>
+    </div>
+    <div class="cc-level-body">
+      <p>You recognize them and they recognize you. Conversation stays light and pleasant. You talk about work, the weather, or the thing in front of you. You do not share personal news with them. If they vanished from your routine, you would notice but not ache. Place a friend here when the bond is warm but shallow.</p>
+      <div class="cc-levelup">
+        <div class="cc-levelup-label">Level up</div>
+        <p>Ask one real question next time. Try &ldquo;How was your weekend?&rdquo; and remember the answer. Small, repeated interest moves this person toward a Good-Time Friend.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cc-level">
+    <div class="cc-level-header">
+      <div class="cc-badge">2</div>
+      <div class="cc-level-title-block">
+        <h2>The Good-Time Friend</h2>
+        <span class="cc-tag">Fun inside one shared setting</span>
+      </div>
+    </div>
+    <div class="cc-level-body">
+      <p>You enjoy their company in a specific place. The gym, the office, the group chat, the weekly game. The friendship lives inside that shared activity. You laugh together and look forward to seeing them. You rarely meet outside that context. Place a friend here when you like them but the connection has not left its lane.</p>
+      <div class="cc-levelup">
+        <div class="cc-levelup-label">Level up</div>
+        <p>Invite them somewhere outside the usual spot. Grab coffee, a meal, a walk. One plan made on purpose turns a context friend into a Steady Friend.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cc-level">
+    <div class="cc-level-header">
+      <div class="cc-badge">3</div>
+      <div class="cc-level-title-block">
+        <h2>The Steady Friend</h2>
+        <span class="cc-tag">Real rhythm, growing trust</span>
+      </div>
+    </div>
+    <div class="cc-level-body">
+      <p>You make plans on purpose, not by accident. You text between hangouts. You know the basics of their life: their job, their family, their stress. You offer small support and accept it back. Trust is real but still growing. Place a friend here when the relationship has rhythm and reaches beyond one setting.</p>
+      <div class="cc-levelup">
+        <div class="cc-levelup-label">Level up</div>
+        <p>Share something you usually keep private. A worry, a hope, a hard week. Honest disclosure, returned in kind, builds a Trusted Friend.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cc-level">
+    <div class="cc-level-header">
+      <div class="cc-badge">4</div>
+      <div class="cc-level-title-block">
+        <h2>The Trusted Friend</h2>
+        <span class="cc-tag">Truth, loyalty, no scorekeeping</span>
+      </div>
+    </div>
+    <div class="cc-level-body">
+      <p>You tell them things you do not tell most people. They keep what you share. You call them in a hard week, not just a good one. You show up for each other without keeping score. You can disagree and recover. Place a friend here when you trust them with the truth.</p>
+      <div class="cc-levelup">
+        <div class="cc-levelup-label">Level up</div>
+        <p>Keep showing up over years, through conflict and repair. Time, presence, and weathered hard seasons together deepen this into a Soul Friend.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cc-level">
+    <div class="cc-level-header">
+      <div class="cc-badge">5</div>
+      <div class="cc-level-title-block">
+        <h2>The Soul Friend</h2>
+        <span class="cc-tag">Rare, lifelong, unconditional</span>
+      </div>
+    </div>
+    <div class="cc-level-body">
+      <p>This is the rare one. They know your flaws and stay anyway. Silence with them feels easy. You can fall apart in front of them and feel safe. Years and distance do not weaken it. Place a friend here when nothing you could say would make them love you less.</p>
+      <div class="cc-levelup">
+        <div class="cc-levelup-label">Already the deepest level</div>
+        <p>There is no level above this. Protect it. Stay present, remember the details, and keep choosing each other.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ============ NOTE ============ -->
+<div class="cc-note">
+  <div class="cc-note-inner">
+    <h3>A note on placement</h3>
+    <p>You will not have many friends at Levels 4 and 5. That is normal, not a failure. A wide base of familiar faces and good-time friends keeps life social and light. A small core of trusted and soul friends keeps it deep. Aim for balance, not a full ladder with every name.</p>
+  </div>
+</div>
+
+<!-- ============ CTA ============ -->
+<div class="cc-cta">
+  <p class="mute" style="margin-bottom: 24px; font-size: 1rem;">The Connection Continuum is built into Conexus, our friendship relationship manager.</p>
+  <a href="products.html#personal" class="btn-primary">See Conexus Personal</a>
+  &ensp;
+  <a href="book.html" class="btn-secondary">Our book</a>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer style="border-top: 1px solid var(--line); padding: 48px 32px; text-align: center;">
+  <p class="mute" style="font-size: 0.85rem;">&copy; 2026 Perdata.ai &mdash; <a href="index.html">Home</a></p>
+</footer>
+
+</body>
+</html>
