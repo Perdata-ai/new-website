@@ -1,0 +1,55 @@
+# Perdata.ai
+
+> Perdata.ai builds the friendship ecosystem: AI to facilitate human connection — not replace it. We make the opposite of social media — a product family that helps people make and keep real friends. No ads. No bots. No algorithms. Friends, not feeds.
+
+Perdata, Inc. (operating as Perdata.ai) is a Delaware C Corporation incorporated in December 2024, headquartered in the Washington, DC area and operating remotely across the U.S. It was co-founded by Pete O'Dell (CEO) and Johan Wikman (CTO), two long-time friends and technology builders who also co-authored the book *Dying for Friendship and Community: Two Old Friends Attack Loneliness* (published March 2026), which is the philosophical foundation under everything the company builds.
+
+## Core philosophy
+
+- The company exists to serve well-being, not to capture attention. Customers are the organizers and institutions whose people are better off — never advertisers.
+- AI facilitates connection (matching, prompting, reminding, surfacing what matters); it never replaces the human on the other end, who is always a real, verified person.
+- Three rules that will never break: **No ads.** **No bots.** **No algorithms.** There is no infinite algorithmic feed and there never will be.
+- Distribution is B2B2C through partners (organizers, employers, communities, nonprofits, health systems), not paid ad acquisition.
+- The user owns their data — portable, encrypted, theirs — via the Conexus Profile.
+
+## The problem
+
+- 1B+ people report feeling lonely (WHO).
+- ~800K deaths a year are linked to social isolation.
+- Loneliness is projected to carry roughly $1T in annual economic cost worldwide by 2030.
+- Social media is optimized for time-on-app, not time-with-friends — a public-health crisis the existing platforms are structurally unable to fix. The U.S. Surgeon General issued an advisory on isolation; the WHO declared loneliness a global threat.
+
+## Products — the friendship ecosystem
+
+Four customer-facing products plus two connective-tissue pieces, all sharing one encrypted, ad-free foundation. They cover the full arc of friendship: find new people, learn how to connect, keep the friends you have, and share with them without algorithmic noise.
+
+- [Products overview](https://perdata.ai/products.html): All products and how they fit together.
+- [Conexus](https://perdata.ai/products.html#conexus): Find — the intro. QR-code matchmaking at events and in communities; AI suggests a worth-meeting person to talk to in person. Live at getconexus.com; in pilot with the American Cancer Society (ACS), a corporate HR team, and an HOA community. An AI-optional version lets organizers run interest-based matching with no AI involvement.
+- [Social Compass](https://perdata.ai/products.html#compass): Learn — getting out of isolation. A library and toolkit (vetted content, a validated self-assessment, targeted next steps, distinct pathways) for people climbing out of social isolation. Available at prosocialconsortium.com; free for individuals, licensed to health systems, employers, and governments.
+- [Conexus Personal](https://perdata.ai/products.html#personal): Keep — investing in friendships. A friendship relationship manager (like a CRM, but the only revenue is your friendship): tiered relationships, an activity page, circles, and private memory/history. Mobile app in beta, coming to the Apple App Store and Google Play Store.
+- [Conexus Social](https://perdata.ai/products.html#social): Share — the real social network. The only social network in the stack: friends only, end-to-end encrypted, mutual connection only, no public profile, no discover tab, no ads, no bots. Tightly integrated with Conexus Personal.
+- [Conexus Profile](https://perdata.ai/products.html): The connective data layer. A portable, encrypted store of who you are; other apps request access and nothing leaves until the user approves.
+- Conexus Steward (working name): The connective agent layer. An AI agent that watches friends' shared signals and nudges you when to reach out — a nudge, not a feed.
+
+## Frameworks
+
+- [The Connection Continuum](https://perdata.ai/connection-continuum.html): A five-level framework for placing each friend by depth — (1) The Familiar Face, (2) The Good-Time Friend, (3) The Steady Friend, (4) The Trusted Friend, (5) The Soul Friend — with a practical "level up" action for each. Built into Conexus Personal.
+
+## Company
+
+- [Vision](https://perdata.ai/vision.html): Friendship is infrastructure — six guiding principles.
+- [Team](https://perdata.ai/team.html): Co-founders Pete O'Dell (CEO, Washington, DC area) and Johan Wikman (CTO, Seattle, WA area), plus an advisory bench across legal, public sector, education, government, and marketing.
+- [Our book](https://perdata.ai/book.html): *Dying for Friendship and Community* (March 2026) — the diagnosis of the loneliness epidemic, the autopsy of social media, and the blueprint for a friendship-first ecosystem. Available in hardcover, paperback, and Kindle on Amazon.
+- [Press](https://perdata.ai/press.html): Media kit, founder bios, speaking topics, press releases, and company facts.
+- [Contact](https://perdata.ai/contact.html): For investors, partners, press, and engineering. Email pete@perdata.ai (general, CEO, partnerships, press) or johan@perdata.ai (engineering & product).
+
+## Resources
+
+- [Resources reading list](https://perdata.ai/resources.html): Curated research, articles, and talks on loneliness, friendship, belonging, and the science of human connection — the evidence base behind the products.
+- [Friendship Event Kit](https://friendshipevent.com): A free resource (facilitation guide, conversation starters, setup instructions) for running a friendship-focused event.
+- [Book resources](https://perdata.ai/book-resources.html): Companion materials for *Dying for Friendship and Community*.
+
+## Optional
+
+- [getconexus.com](https://getconexus.com): The live Conexus product site.
+- [prosocialconsortium.com](https://prosocialconsortium.com): The Social Compass / Prosocial Consortium site.
