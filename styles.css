@@ -510,6 +510,11 @@ section.dark .manifest-item p {
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
+.team-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.team-grid-3 .founder { padding: 56px 36px; }
+@media (max-width: 900px) {
+  .team-grid-3 { grid-template-columns: 1fr; }
+}
 @media (max-width: 700px) {
   .team-grid { grid-template-columns: 1fr; }
 }
